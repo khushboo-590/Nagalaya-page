@@ -290,8 +290,20 @@
 .ml-28{
     margin-left: 28%;
 }
+.top-right{
+    top: right;
+    right: 0;
+    
+}
+.top-right-bottom{
+    top: bottom;
+ right: 0;
+bottom: 10px;
 
-
+}
+.hidden{
+    overflow: hidden;
+}
 .col-12 {
     width: 100%;
     padding-left: 12px;
