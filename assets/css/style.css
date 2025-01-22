@@ -270,7 +270,26 @@
 
 }
 
-
+.max-w-946{
+    max-width: 946px;
+}
+.ml-15{
+    margin-left: 15%;
+}
+.ml-5 {
+    margin-left: 5%;
+}.ml-50 {
+    margin-left: 50%;
+}
+.ml-2{
+    margin-left: 2%;
+}
+.mb-100{
+    margin-bottom: 100.5px;
+}
+.ml-28{
+    margin-left: 28%;
+}
 .col-12 {
     width: 100%;
     padding-left: 12px;
