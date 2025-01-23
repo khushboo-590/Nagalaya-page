@@ -345,26 +345,28 @@
     }
 
 }
+.line{
+    border-bottom: 2px solid white;
+    width:100%;
+    padding: 10px;
+}
 
 .accordion-icon {
     font-size: 1.5em;
     transition: transform 0.3s ease;
 }
 
-.accordion-button:active .accordion-icon {
+.accordion-header :active  .accordion-icon {
     transform: rotate(-4deg);
+    /* background-image: url(/assets/images/minus.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 10px; */
 }
 
 .accordion-button:focus {
     box-shadow: none;
-}
-
-.pr-100 {
-    padding-right: 100px;
-}
-
-.pr-240 {
-    padding-right: 240px;
 }
 
 .ml-20 {
@@ -381,6 +383,13 @@
 
 .ml-18 {
     margin-left: 18%;
+}
+.accordion-header:not(.collapsed)::after{
+    /* background-image: url(/assets/images/minus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:20px; */
 }
 
 .col-12 {
