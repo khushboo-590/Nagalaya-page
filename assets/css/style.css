@@ -335,11 +335,10 @@
 .accordion {
     --bs-accordion-bg: black !important;
     --bs-accordion-border-width: none;
-    --bs-accordion-active-bg: black!important;
+    --bs-accordion-active-bg: black !important;
     --bs-accordion-active-color: white;
-    max-width: 720px;
     --bs-accordion-btn-icon: unset;
-        --bs-accordion-btn-active-icon: unset;
+    --bs-accordion-btn-active-icon: unset;
 
     .accordion-hearder {
         margin: 10px;
@@ -367,16 +366,20 @@
 .pr-240 {
     padding-right: 240px;
 }
-.ml-20{
+
+.ml-20 {
     margin-left: 20%;
 }
-.ml-22{
+
+.ml-22 {
     margin-left: 22%;
 }
-.ml-21{
+
+.ml-21 {
     margin-left: 21%;
 }
-.ml-18{
+
+.ml-18 {
     margin-left: 18%;
 }
 
