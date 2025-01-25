@@ -478,11 +478,9 @@
     }
 
 .gap-120{
-    gap: 70px;
+    gap: 30px;
 }
-    .gap-40{
-        gap: 30px;
-    }
+   
 
 }
 
@@ -549,17 +547,17 @@
         transform: rotate(-38deg);
         transform-origin: left;
     }
+        .logo {
+            justify-content: space-between;
+        }
 }
 
 .main-heading {
     font-size: 70px;
     line-height: 89.44px;
 }
-        .logo {
-            gap: 70px;
-            justify-content: space-between;
-        }
 
+      
 
 
 @media(max-width:767.98px) {
@@ -575,8 +573,6 @@
     .center {
         text-align: center;
     }
-
-
 }
 
 @media(max-width:575.98px) {
